@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
         width: width * 0.2,
         height: height * 0.08,
         resizeMode: 'contain',
-        borderRadius: width * 0.2,
+        borderRadius: width * 0.4,
     },
     userName: {
         color: 'white',
