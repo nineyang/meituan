@@ -37,7 +37,7 @@ var User = React.createClass({
                     <Image style={styles.backStyle} source={{uri: 'icon_cell_rightarrow'}}/>
                 </View>
                 {/*评价和收藏*/}
-                <View style={{flexDirection: 'row' }}>
+                <View style={{flexDirection: 'row'}}>
                     <Recommend top="100" bottom="优惠券" hasBorder="true"/>
                     <Recommend top="100" bottom="评价" hasBorder="true"/>
                     <Recommend top="100" bottom="收藏"/>
@@ -71,7 +71,7 @@ var User = React.createClass({
         let itemArr = [];
         for (let i = 0; i < PayData.length; ++i) {
             itemArr.push(<View key={i} style={styles.payStyle}><Image source={{uri: PayData[i].iconName}}
-                                                              style={styles.payImageStyle}/><Text
+                                                                      style={styles.payImageStyle}/><Text
                 style={styles.payTitleStyle}>{PayData[i].title}</Text></View>);
         }
         return itemArr;
@@ -108,12 +108,13 @@ const styles = StyleSheet.create({
     vipStyle: {
         width: width * 0.05,
         height: height * 0.04,
-        resizeMode: 'contain'
+        resizeMode: 'contain',
     },
     backStyle: {
         width: width * 0.03,
         height: height * 0.02,
-        resizeMode: 'contain'
+        resizeMode: 'contain',
+        marginRight : 20,
     },
 
     separate: {
@@ -134,12 +135,12 @@ const styles = StyleSheet.create({
         fontSize: 25,
         color: '#ccc',
     },
-    payView : {
-        flexDirection: 'row' ,
-        height : height * 0.07,
-        backgroundColor : 'white',
-        borderColor : '#ccc',
-        borderTopWidth : 1,
+    payView: {
+        flexDirection: 'row',
+        height: height * 0.07,
+        backgroundColor: 'white',
+        borderColor: '#ccc',
+        borderTopWidth: 1,
     }
 
 });

@@ -61,7 +61,7 @@ var Home = React.createClass({
             <View style={styles.homeTop}>
                 <TouchableOpacity>
                     <View style={styles.cityNav}>
-                        <Text style={styles.topLeftText}>hello</Text>
+                        <Text style={styles.topLeftText}>nine</Text>
                         <Image style={styles.cityDown} source={{uri: 'icon_homepage_down_arrow'}}></Image>
                     </View>
                 </TouchableOpacity>

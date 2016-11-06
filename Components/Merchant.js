@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
     },
     textStyle: {
         color: 'white',
-        fontSize: 30,
+        fontSize: 25,
         fontWeight: 'bold',
 
     },
